@@ -1,0 +1,107 @@
+
+.top{display: flex;}
+.logo{flex:1;}
+
+
+nav a{
+    
+    text-decoration: none;
+    color:lightseagreen;
+    display: inline;
+    padding: 10px;
+    margin:5px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size:80% ;
+   flex:2;
+  
+}
+nav a:hover{
+    color:pink;
+}
+
+.maintext{
+    display: flex;
+height:500px}
+.left {flex:2}
+
+.new{
+    flex:1;
+    background-color: rgb(36, 9, 36);
+    color:#B2BEB5;
+    height:400px;
+    padding: 10px;}
+    .new h3{color: white;}
+    .new h2{ color:yellow;}
+    
+
+
+.web360{
+    display: flex;
+}
+.future {
+    flex:1;
+}
+.promise{
+    flex: 1;
+    color: #B2BEB5;
+}
+.read{ background-color: rgb(36, 9, 36);
+    border:1px;
+    color:white;
+    padding:10px;
+    text-decoration: none;
+
+
+}
+
+
+
+.downbar{
+    position: absolute;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    
+    
+   
+}
+
+.downbar h4{color: green;
+    font-size: 2rem;
+    
+
+}
+.last{
+  
+    display: flex;
+   
+    
+}
+.downh{
+    color: rgb(36, 9, 36);
+    font-size: 1.125;
+}
+.inline{
+    display: flex;
+    flex-direction: column;
+    height:60px;
+    padding: 10px;
+}
+
+.number{
+    color:#B2BEB5;
+    font-size: 2em;
+    
+
+}
+.title{color:rgb(57, 7, 57);
+    font-size: 1.125em;
+
+
+}
+.content{
+    color: #B2BEB5;
+}
+.title:hover{color: orangered;
+
+}
+.new h3:hover{color:yellow;}
